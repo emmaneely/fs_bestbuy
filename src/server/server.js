@@ -4,6 +4,7 @@ import cors from "cors";
 import apiRouter from "./routes";
 import config from "./config";
 import { errorHandler } from "./middlewares/errorHandler";
+import { join } from "path";
 
 const app = express();
 
